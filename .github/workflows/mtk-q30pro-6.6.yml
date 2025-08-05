@@ -171,7 +171,7 @@ jobs:
       run: |
         echo "release_tag=$(date +"%Y.%m.%d-%H%M")">> $GITHUB_OUTPUT
         echo "名称：jcg-q30 闭源Wi-Fi 24.10 内核6.6 " >> release.txt
-        echo "默认网关：192.168.30.1" >> release.txt
+        echo "默认网关：192.168.6.1" >> release.txt
         echo "默认用户和密码：root  " >> release.txt
         echo "插件： 含必要依赖 " >> release.txt
         touch release.txt
